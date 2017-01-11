@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E73E13E455F005AF37FD9DB2BC7DF5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2427B27605BE545D60702E49A4EB2DA4 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0D2EE642C1FB7D380CC6D417E668D /* CGRectEx.swift */; };
+		25F51E983DF0E25F6B582A1D8315C1D1 /* FallingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE094E4E26C06860684D2DB6C78ACDC /* FallingAnimationView.swift */; };
+		287E0113F87602605FF95F03E868AECC /* TKSwarmAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8D6DB2D20C530999EA769BA04B91D /* TKSwarmAlert.swift */; };
+		343737CB50819B89DF56812050FEA723 /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B9C08DB494BEDF059466E68E54126 /* NSTimerEx.swift */; };
+		4556B58C22FBEB6AD499F9F0881531D0 /* TKSwarmAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6C392C5775C7E9E448B6E5D13A9B31 /* TKSwarmAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B723F0A95A3AC6268AC4899A4F0A719 /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525D8F3054B8C87D5CBEAD66858A9F6F /* DynamicBlurView.swift */; };
+		6B77567AF3F104725BFFB274F0A7A109 /* TKSWBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7DB1D944535991E785C780E9CB990 /* TKSWBackgroundView.swift */; };
+		8C67F07A003F84070279693B66F72B4F /* TKSwarmAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB41080BC5C0F41C71BBAE5CCC6E82 /* TKSwarmAlert-dummy.m */; };
+		8F2510382FBBBA86CF246F6EE34354EC /* BrightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530B28F9E7B7FE4C027A80AA978A2CE /* BrightView.swift */; };
+		A95A8A7CE1A85368F29CB71A458A014B /* Pods-SatDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F787FBE827DE959FE3451D1E11DAA766 /* Pods-SatDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4685C4E32446039EC4D53B0F47028F8 /* Pods-SatDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A83E0943348DFB95BDB0D41D695274 /* Pods-SatDemo-dummy.m */; };
+		D5063A5C7C8306DF69DBC619DAEB7E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4891D852B32048416E22C6C38ECF9E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3885ABE24DF163A6B4A34B2187147DB1;
+			remoteInfo = TKSwarmAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0947BF62D962EBC257ED66500CAB77DB /* Pods_SatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6018560DB99A75F241E7587DF7F0B2 /* Pods-SatDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatDemo.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44A83E0943348DFB95BDB0D41D695274 /* Pods-SatDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatDemo-dummy.m"; sourceTree = "<group>"; };
+		47C38FE1289327A5BA580FA51AC35AB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C392C5775C7E9E448B6E5D13A9B31 /* TKSwarmAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSwarmAlert-umbrella.h"; sourceTree = "<group>"; };
+		525D8F3054B8C87D5CBEAD66858A9F6F /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = TKSwarmAlert/Classes/helper/DynamicBlurView.swift; sourceTree = "<group>"; };
+		5712E1B2B05ACA6E5FDE1ACEFFDAF609 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633EFEFF2269D43BC591CD3920DE4DE9 /* Pods-SatDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatDemo-frameworks.sh"; sourceTree = "<group>"; };
+		69A3B7EDF479A4626DA76167B2EFA13C /* TKSwarmAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKSwarmAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7451123B36B8BD276A6AD77E25F0CF76 /* Pods-SatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7605AD6FE67ED0E4BDDE3AB21EEE590A /* Pods-SatDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFEC70211BF42DA9D886772D694BB84B /* Pods-SatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B57EEAA5DB83AA23BA47A9E332184222 /* TKSwarmAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSwarmAlert.xcconfig; sourceTree = "<group>"; };
+		B7B0996C0DE1560723C5E492A688F8F2 /* Pods-SatDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBFCC5DB4FB36B3F7D80D6ED8B86225A /* TKSwarmAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSwarmAlert-prefix.pch"; sourceTree = "<group>"; };
+		CEB8D6DB2D20C530999EA769BA04B91D /* TKSwarmAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TKSwarmAlert.swift; path = TKSwarmAlert/Classes/TKSwarmAlert.swift; sourceTree = "<group>"; };
+		CF0C6BBBA96B40B2F0F43AE934282853 /* TKSwarmAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TKSwarmAlert.modulemap; sourceTree = "<group>"; };
+		D4DB41080BC5C0F41C71BBAE5CCC6E82 /* TKSwarmAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSwarmAlert-dummy.m"; sourceTree = "<group>"; };
+		E19B9C08DB494BEDF059466E68E54126 /* NSTimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTimerEx.swift; path = TKSwarmAlert/Classes/helper/NSTimerEx.swift; sourceTree = "<group>"; };
+		E4E7DB1D944535991E785C780E9CB990 /* TKSWBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TKSWBackgroundView.swift; path = TKSwarmAlert/Classes/TKSWBackgroundView.swift; sourceTree = "<group>"; };
+		EDE094E4E26C06860684D2DB6C78ACDC /* FallingAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FallingAnimationView.swift; path = TKSwarmAlert/Classes/FallingAnimationView.swift; sourceTree = "<group>"; };
+		F530B28F9E7B7FE4C027A80AA978A2CE /* BrightView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrightView.swift; path = TKSwarmAlert/Classes/BrightView.swift; sourceTree = "<group>"; };
+		F787FBE827DE959FE3451D1E11DAA766 /* Pods-SatDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatDemo-umbrella.h"; sourceTree = "<group>"; };
+		F8DF91B0F967A17CE307A254ACA796C4 /* Pods-SatDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatDemo-resources.sh"; sourceTree = "<group>"; };
+		FAD0D2EE642C1FB7D380CC6D417E668D /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = TKSwarmAlert/Classes/helper/CGRectEx.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478483B59479386303FBA92AFC719DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5063A5C7C8306DF69DBC619DAEB7E18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C749BE52C699B97E4F4854FBA9E48F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E73E13E455F005AF37FD9DB2BC7DF5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172143642C4472888454AE1D1A6ECF02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4163598D6ED937BD28D6F16EA286BF9 /* TKSwarmAlert */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28BA62BFC6B7E9B0CE47F11984FB6CC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				517ECE769B3A6B098537A6EDE6633331 /* Pods-SatDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		517ECE769B3A6B098537A6EDE6633331 /* Pods-SatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47C38FE1289327A5BA580FA51AC35AB5 /* Info.plist */,
+				2C6018560DB99A75F241E7587DF7F0B2 /* Pods-SatDemo.modulemap */,
+				B7B0996C0DE1560723C5E492A688F8F2 /* Pods-SatDemo-acknowledgements.markdown */,
+				7605AD6FE67ED0E4BDDE3AB21EEE590A /* Pods-SatDemo-acknowledgements.plist */,
+				44A83E0943348DFB95BDB0D41D695274 /* Pods-SatDemo-dummy.m */,
+				633EFEFF2269D43BC591CD3920DE4DE9 /* Pods-SatDemo-frameworks.sh */,
+				F8DF91B0F967A17CE307A254ACA796C4 /* Pods-SatDemo-resources.sh */,
+				F787FBE827DE959FE3451D1E11DAA766 /* Pods-SatDemo-umbrella.h */,
+				7451123B36B8BD276A6AD77E25F0CF76 /* Pods-SatDemo.debug.xcconfig */,
+				AFEC70211BF42DA9D886772D694BB84B /* Pods-SatDemo.release.xcconfig */,
+			);
+			name = "Pods-SatDemo";
+			path = "Target Support Files/Pods-SatDemo";
+			sourceTree = "<group>";
+		};
+		56AE5E9E0E5085AB67B31289EB430008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0947BF62D962EBC257ED66500CAB77DB /* Pods_SatDemo.framework */,
+				69A3B7EDF479A4626DA76167B2EFA13C /* TKSwarmAlert.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				172143642C4472888454AE1D1A6ECF02 /* Pods */,
+				56AE5E9E0E5085AB67B31289EB430008 /* Products */,
+				28BA62BFC6B7E9B0CE47F11984FB6CC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8043028F74A02699F24CB5454A36E3C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5712E1B2B05ACA6E5FDE1ACEFFDAF609 /* Info.plist */,
+				CF0C6BBBA96B40B2F0F43AE934282853 /* TKSwarmAlert.modulemap */,
+				B57EEAA5DB83AA23BA47A9E332184222 /* TKSwarmAlert.xcconfig */,
+				D4DB41080BC5C0F41C71BBAE5CCC6E82 /* TKSwarmAlert-dummy.m */,
+				CBFCC5DB4FB36B3F7D80D6ED8B86225A /* TKSwarmAlert-prefix.pch */,
+				4C6C392C5775C7E9E448B6E5D13A9B31 /* TKSwarmAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKSwarmAlert";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4163598D6ED937BD28D6F16EA286BF9 /* TKSwarmAlert */ = {
+			isa = PBXGroup;
+			children = (
+				F530B28F9E7B7FE4C027A80AA978A2CE /* BrightView.swift */,
+				FAD0D2EE642C1FB7D380CC6D417E668D /* CGRectEx.swift */,
+				525D8F3054B8C87D5CBEAD66858A9F6F /* DynamicBlurView.swift */,
+				EDE094E4E26C06860684D2DB6C78ACDC /* FallingAnimationView.swift */,
+				E19B9C08DB494BEDF059466E68E54126 /* NSTimerEx.swift */,
+				CEB8D6DB2D20C530999EA769BA04B91D /* TKSwarmAlert.swift */,
+				E4E7DB1D944535991E785C780E9CB990 /* TKSWBackgroundView.swift */,
+				8043028F74A02699F24CB5454A36E3C8 /* Support Files */,
+			);
+			path = TKSwarmAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		386F7ABF4CB0613C2BD4FA08C47D8E14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95A8A7CE1A85368F29CB71A458A014B /* Pods-SatDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427EFF2F66F256E3DB493B161F13E6D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4556B58C22FBEB6AD499F9F0881531D0 /* TKSwarmAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3885ABE24DF163A6B4A34B2187147DB1 /* TKSwarmAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0672AF3D50ADF37D80106B73C7A5C20 /* Build configuration list for PBXNativeTarget "TKSwarmAlert" */;
+			buildPhases = (
+				44E7FE947A456EF873EBE572BF9066DD /* Sources */,
+				C749BE52C699B97E4F4854FBA9E48F78 /* Frameworks */,
+				427EFF2F66F256E3DB493B161F13E6D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKSwarmAlert;
+			productName = TKSwarmAlert;
+			productReference = 69A3B7EDF479A4626DA76167B2EFA13C /* TKSwarmAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		594126B1D2C2B5680D3A1D6297CE0EFC /* Pods-SatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E328A7D3671188F38A8D138CA99079E7 /* Build configuration list for PBXNativeTarget "Pods-SatDemo" */;
+			buildPhases = (
+				425B12E6E6331B06D1C9E7FA8794F2C2 /* Sources */,
+				478483B59479386303FBA92AFC719DA8 /* Frameworks */,
+				386F7ABF4CB0613C2BD4FA08C47D8E14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1C3D08B3C1A898A45CB64E36850292 /* PBXTargetDependency */,
+			);
+			name = "Pods-SatDemo";
+			productName = "Pods-SatDemo";
+			productReference = 0947BF62D962EBC257ED66500CAB77DB /* Pods_SatDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					3885ABE24DF163A6B4A34B2187147DB1 = {
+						LastSwiftMigration = 0800;
+					};
+					594126B1D2C2B5680D3A1D6297CE0EFC = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 56AE5E9E0E5085AB67B31289EB430008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594126B1D2C2B5680D3A1D6297CE0EFC /* Pods-SatDemo */,
+				3885ABE24DF163A6B4A34B2187147DB1 /* TKSwarmAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425B12E6E6331B06D1C9E7FA8794F2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4685C4E32446039EC4D53B0F47028F8 /* Pods-SatDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E7FE947A456EF873EBE572BF9066DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2510382FBBBA86CF246F6EE34354EC /* BrightView.swift in Sources */,
+				2427B27605BE545D60702E49A4EB2DA4 /* CGRectEx.swift in Sources */,
+				5B723F0A95A3AC6268AC4899A4F0A719 /* DynamicBlurView.swift in Sources */,
+				25F51E983DF0E25F6B582A1D8315C1D1 /* FallingAnimationView.swift in Sources */,
+				343737CB50819B89DF56812050FEA723 /* NSTimerEx.swift in Sources */,
+				8C67F07A003F84070279693B66F72B4F /* TKSwarmAlert-dummy.m in Sources */,
+				287E0113F87602605FF95F03E868AECC /* TKSwarmAlert.swift in Sources */,
+				6B77567AF3F104725BFFB274F0A7A109 /* TKSWBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1C3D08B3C1A898A45CB64E36850292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKSwarmAlert;
+			target = 3885ABE24DF163A6B4A34B2187147DB1 /* TKSwarmAlert */;
+			targetProxy = 4891D852B32048416E22C6C38ECF9E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DB9122B640E7678A4D1AF5ADBAF642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7451123B36B8BD276A6AD77E25F0CF76 /* Pods-SatDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatDemo/Pods-SatDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56B50B49BA80303996B0C604E3F7DBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEC70211BF42DA9D886772D694BB84B /* Pods-SatDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SatDemo/Pods-SatDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5D8C109CCB49D32F35D7DE431AB1140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57EEAA5DB83AA23BA47A9E332184222 /* TKSwarmAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSwarmAlert/TKSwarmAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSwarmAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSwarmAlert/TKSwarmAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TKSwarmAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB0C756D3D3F2D8D717ED7F383A3EDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57EEAA5DB83AA23BA47A9E332184222 /* TKSwarmAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSwarmAlert/TKSwarmAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSwarmAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSwarmAlert/TKSwarmAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TKSwarmAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0672AF3D50ADF37D80106B73C7A5C20 /* Build configuration list for PBXNativeTarget "TKSwarmAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0C756D3D3F2D8D717ED7F383A3EDEE /* Debug */,
+				D5D8C109CCB49D32F35D7DE431AB1140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E328A7D3671188F38A8D138CA99079E7 /* Build configuration list for PBXNativeTarget "Pods-SatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB9122B640E7678A4D1AF5ADBAF642E /* Debug */,
+				56B50B49BA80303996B0C604E3F7DBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

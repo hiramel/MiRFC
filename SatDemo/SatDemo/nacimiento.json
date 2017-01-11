@@ -1,0 +1,142 @@
+
+
+{
+  "estatus": 0,
+  "descripcion": "",
+  "datos": {
+    "estados": [
+      {
+        "id": "AS",
+        "descripcion": "AGUASCALIENTES"
+      },
+      {
+        "id": "BC",
+        "descripcion": "BAJA CALIFORNIA"
+      },
+      {
+        "id": "BS",
+        "descripcion": "BAJA CALIFORNIA SUR"
+      },
+      {
+        "id": "CC",
+        "descripcion": "CAMPECHE"
+      },
+      {
+        "id": "CH",
+        "descripcion": "CHIHUAHUA"
+      },
+      {
+        "id": "CL",
+        "descripcion": "COAHUILA"
+      },
+      {
+        "id": "CM",
+        "descripcion": "COLIMA"
+      },
+      {
+        "id": "CS",
+        "descripcion": "CHIAPAS"
+      },
+      {
+        "id": "DF",
+        "descripcion": "DISTRITO FEDERAL"
+      },
+      {
+        "id": "DG",
+        "descripcion": "DURANGO"
+      },
+      {
+        "id": "GT",
+        "descripcion": "GUANAJUATO"
+      },
+      {
+        "id": "GR",
+        "descripcion": "GUERRERO"
+      },
+      {
+        "id": "HG",
+        "descripcion": "HIDALGO"
+      },
+      {
+        "id": "JC",
+        "descripcion": "JALISCO"
+      },
+      {
+        "id": "MC",
+        "descripcion": "MEXICO"
+      },
+      {
+        "id": "MN",
+        "descripcion": "MICHOACAN"
+      },
+      {
+        "id": "MS",
+        "descripcion": "MORELOS"
+      },
+      {
+        "id": "CH",
+        "descripcion": "CHIHUAHUA"
+      },
+      {
+        "id": "NL",
+        "descripcion": "NUEVO LEON"
+      },
+      {
+        "id": "NT",
+        "descripcion": "NAYARIT"
+      },
+      {
+        "id": "OC",
+        "descripcion": "OAXACA"
+      },
+      {
+        "id": "PL",
+        "descripcion": "PUEBLA"
+      },
+      {
+        "id": "QR",
+        "descripcion": "QUINTANA ROO"
+      },
+      {
+        "id": "QT",
+        "descripcion": "QUERETARO"
+      },
+      {
+        "id": "SL",
+        "descripcion": "SINALOA"
+      },
+      {
+        "id": "SP",
+        "descripcion": "SAN LUIS POTOSI"
+      },
+      {
+        "id": "SR",
+        "descripcion": "SONORA"
+      },
+      {
+        "id": "TC",
+        "descripcion": "TABASCO"
+      },
+      {
+        "id": "TL",
+        "descripcion": "TLAXCALA"
+      },
+      {
+        "id": "TS",
+        "descripcion": "TAMAULIPAS"
+      },
+      {
+        "id": "VZ",
+        "descripcion": "VERACRUZ"
+      },
+      {
+        "id": "YN",
+        "descripcion": "YUCATAN"
+      },
+      {
+        "id": "ZS",
+        "descripcion": "ZACATECAS"
+      }
+    ]
+  }
+}
